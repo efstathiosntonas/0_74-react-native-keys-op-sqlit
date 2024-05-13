@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@op-engineering/op-sqlite": "^6.0.0",
+    "react-native-keys": "^0.7.10"
+  }
+}
