@@ -2141,6 +2141,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@op-engineering/op-sqlite@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "@op-engineering/op-sqlite@npm:6.0.0"
+  peerDependencies:
+    react: "*"
+    react-native: ">0.73.0"
+  checksum: 68734903db38323de3e60938e035e521adee2cb4a261dceb3afd55d6ddb225ad5fe5da7476824e816067171c3c946daa7bc25eb6af75c3af38f5345ac5a57071
+  languageName: node
+  linkType: hard
+
 "@pkgjs/parseargs@npm:^0.11.0":
   version: 0.11.0
   resolution: "@pkgjs/parseargs@npm:0.11.0"
@@ -3008,6 +3018,7 @@ __metadata:
     "@babel/core": ^7.20.0
     "@babel/preset-env": ^7.20.0
     "@babel/runtime": ^7.20.0
+    "@op-engineering/op-sqlite": ^6.0.0
     "@react-native/babel-preset": 0.74.83
     "@react-native/eslint-config": 0.74.83
     "@react-native/metro-config": 0.74.83

@@ -5,25 +5,11 @@
  * @format
  */
 
-import React from 'react';
 import type {PropsWithChildren} from 'react';
-import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
-} from 'react-native';
+import React from 'react';
+import {SafeAreaView, ScrollView, StatusBar, StyleSheet, Text, useColorScheme, View,} from 'react-native';
 
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
+import {Colors, DebugInstructions, Header, LearnMoreLinks, ReloadInstructions,} from 'react-native/Libraries/NewAppScreen';
 
 type SectionProps = PropsWithChildren<{
   title: string;
@@ -31,10 +17,10 @@ type SectionProps = PropsWithChildren<{
 
 import Keys from 'react-native-keys';
 
-const t = Keys.APP_NAME; // https://example.com'
-const g = Keys.ANDROID_CODE; // fb://
+const h = Keys.secureFor('APP_NAME');
+const j = Keys.secureFor('ANDROID_CODE');
 
-console.log(t,g)
+console.log(j,h)
 
 function Section({children, title}: SectionProps): React.JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
